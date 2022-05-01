@@ -49,3 +49,26 @@ for( let i = 0 ; i < num ; i++){
     conteúdo += "<li>" + i + "</li>";
 }
 lista.innerHTML = conteúdo;
+
+// animação HTML "-04-"
+// aula de animação para de como fazer animação , esse não é a melhor
+// maneira. a melhor é por meio do canvas 
+
+let jogador = document.getElementById("jogador")
+
+let xInicial = 0;
+let yInicial = 0;
+
+function moverQuadrado(x,y){
+
+    let posX = x + "px";
+    let posY = y + "px";
+
+    jogador.style.top = posX
+    jogador.style.left = posY
+
+}
+
+setInterval(function(){
+    moverQuadrado(xInicial++, yInicial++)
+}, 14)
