@@ -72,3 +72,18 @@ function moverQuadrado(x,y){
 setInterval(function(){
     moverQuadrado(xInicial++, yInicial++)
 }, 14)
+
+// operadores logicos 
+// estudo +!+
+
+let idade = 19;
+
+const idadeMaior20 = idade >= 20 ;
+const idadeMenor30 = idade <= 30 ;
+const entre = idadeMaior20 && idadeMaior20;
+
+console.log(idade)
+console.log(" Maior que vinte " , idadeMaior20)
+
+console.log(" Menor que trintar " , idadeMenor30)
+console.log("entre 20 e 30 " , entre)
