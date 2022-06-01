@@ -72,8 +72,7 @@ function moverQuadrado(x,y){
 setInterval(function(){
     moverQuadrado(xInicial++, yInicial++)
 }, 14)
-
-// operadores logicos 
+// operadores logicos "-05-"
 // estudo +!+
 
 let idade = 19;
@@ -87,3 +86,21 @@ console.log(" Maior que vinte " , idadeMaior20)
 
 console.log(" Menor que trintar " , idadeMenor30)
 console.log("entre 20 e 30 " , entre)
+
+// strings p/ numeros"-06-"
+// parseInt transforma strings em numeros " inteiros " .
+//  parseFloat para numeros decimais .tipo : "3.4"
+
+// let a = "6"
+// let b = "8"
+let a = "6"
+let b = "8"
+
+console.log(parseInt(a)+parseInt(b))
+
+// alert e prompt "-07-"
+// curiosidade o prompt sempre lançar os valores em strings
+const numero = parseInt(prompt(" digite um número "))
+
+const dobro = numero + numero
+alert(" o seu numero é = " + numero + " e o dobro dele é " + dobro)
