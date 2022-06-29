@@ -104,3 +104,18 @@ const numero = parseInt(prompt(" digite um número "))
 
 const dobro = numero + numero
 alert(" o seu numero é = " + numero + " e o dobro dele é " + dobro)
+
+// canvas "-08-"
+//CIRCULO É UM ARCO QUE SE FECHAR
+let x = 300
+let y = 250
+let raio = 100
+let inicio = 0
+let fim = 2 * Math.PI
+
+ctx.beginPath()
+ctx.strokeStyle = "white"
+ctx.fillStyle = "PINK"
+ctx.arc(x,y,raio,inicio,fim)
+ctx.stroke()
+ctx.fill()
